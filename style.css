@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+.aviso{
+    font-size: 2rem;
+    color: red;
+    background-color:rgba(6, 58, 214, 0.267);
+}
+
+.fala{
+    font-size: 4rem;
+    background-color: aliceblue;
+}
+
+.dias{
+    font-size: 3rem;
+    font-weight: bolder;
+    background-color: royalblue;
+    color: #fff;
+}
+
+@media (min-width: 500px) {
+    .aviso{
+        font-size: 1rem;
+    }
+    .fala{
+        font-size: 1.3rem;
+    }
+}
